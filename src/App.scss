@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.dashboard-listing {
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px 20px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #0c3776;
+  color: white;
+}
+
+.candidate-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-body {
+  height: 400px;
+  overflow: auto;
+}
+
+.candidate-img {
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.img-container {
+  background-image: linear-gradient(
+    to bottom right,
+    #bf3974,
+    rgba(13, 110, 253, 0.25)
+  );
+  height: calc(100% - 80px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.close-icon {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.close-btn {
+  background: #ededed;
+  border: 0;
+  margin-top: 5px;
+  line-height: 3px;
+  border-radius: 4px;
+}
+
+.listing-modal .modal-dialog {
+  min-width: 100vw;
+}
+
+.student-modal .modal-dialog {
+  min-width: 60vw;
+}
+
+.view-btn {
+  margin-left: 10px;
+  float: right;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.candidate-intro {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.heading {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  font-family: emoji;
+  padding: 30px 10px 10px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.donut-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
